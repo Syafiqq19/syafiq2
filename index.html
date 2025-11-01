@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UTS Pemrograman Web Dasar</title>
+  <style>
+    body {
+      background-color: yellow; /* Latar putih */
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    header, footer {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2, h3 {
+      margin: 5px 0;
+    }
+
+    .logo {
+      width: 60px;
+      vertical-align: middle;
+    }
+
+    hr {
+      border: 2px solid red;
+      margin: 15px 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      width: 50%;
+      background-color: white;
+    }
+
+    table, th, td {
+      border: 2px solid black;
+    }
+
+    th, td {
+      padding: 6px;
+      text-align: center;
+    }
+
+    .btn {
+      display: block;
+      margin: 15px auto;
+      padding: 6px 20px;
+      border: 1px solid black;
+      background-color: lightgray;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .info {
+      width: 45%;
+      margin: 0 auto;
+      border-collapse: collapse;
+      background-color: white;
+    }
+
+    .info td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .list {
+      margin-left: 20%;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="logo.png" alt="Logo UNINDRA" class="logo"><br>
+    <h2>UNIVERSITAS INDRAPRASTA PGRI (UNINDRA)</h2>
+    <p>Jl. Nangka No.58 Tanjung Barat, Jakarta Selatan</p>
+  </header>
+
+  <hr>
+
+  <!-- Bagian tabel medali -->
+  <section class="section">
+    <h3 style="text-align:center;">DAFTAR PEROLEHAN MEDALI<br> CABANG OLAHRAGA</h3>
+
+    <table>
+      <tr>
+        <th>PROVINSI</th>
+        <th>EMAS</th>
+        <th>PERAK</th>
+        <th>PERUNGGU</th>
+      </tr>
+      <tr>
+        <td>DKI JAKARTA</td>
+        <td>25</td>
+        <td>12</td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td>JAWA BARAT</td>
+        <td>15</td>
+        <td>26</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>JAWA TIMUR</td>
+        <td>14</td>
+        <td>13</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>JAWA TENGAH</td>
+        <td>13</td>
+        <td>30</td>
+        <td>19</td>
+      </tr>
+    </table>
+
+    <button class="btn">Simpan</button>
+  </section>
+
+  <hr>
+
+  <!-- Bagian identitas mahasiswa -->
+  <section class="section">
+    <header>
+      <img src="logo.png" alt="Logo UNINDRA" class="logo"><br>
+      <h2>UNIVERSITAS INDRAPRASTA PGRI (UNINDRA)</h2>
+      <p><b>Jl. Nangka No.58 Tanjung Barat - Jakarta Selatan</b></p>
+    </header>
+
+    <table class="info">
+      <tr>
+        <td><b>Nama</b></td>
+        <td>: syafiq zamiir achmad</td>
+      </tr>
+      <tr>
+        <td><b>NPM</b></td>
+        <td>: 202433500314</td>
+      </tr>
+    </table>
+
+    <button class="btn">Simpan</button>
+
+    <div class="list">
+      <p>FTIK:</p>
+      <ol type="A">
+        <li>Informatika</li>
+        <li>Teknik Arsitektur</li>
+        <li>Teknik Industri</li>
+      </ol>
+
+      <p>MIPA:</p>
+      <ol type="I">
+        <li>Matematika</li>
+        <li>Fisika</li>
+        <li>Biologi</li>
+      </ol>
+    </div>
+  </section>
+
+</body>
+</html>
